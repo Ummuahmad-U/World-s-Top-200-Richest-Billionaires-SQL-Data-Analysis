@@ -1,6 +1,9 @@
 # World-s-Top-200-Richest-Billionaires-SQL-Data-Analysis
 
 
+![](billionaires_banner.png)
+
+
 
 ## 1. Project Overview
 
