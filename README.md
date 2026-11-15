@@ -17,35 +17,35 @@ The purpose of this project is to demonstrate how SQL can be used to retrieve, c
 
 The objectives of this project are to:
 
-Identify the 20 richest billionaires.
+• Identify the 20 richest billionaires.
 
-Find the five youngest billionaires.
+• Find the five youngest billionaires.
 
-Calculate the average age and average net worth.
+• Calculate the average age and average net worth.
 
-Identify countries with the highest number of billionaires.
+• Identify countries with the highest number of billionaires.
 
-Analyse the combined net worth by country.
+• Analyse the combined net worth by country.
 
-Determine the most represented industries.
+• Determine the most represented industries.
 
-Identify countries with at least five billionaires.
+• Identify countries with at least five billionaires.
 
-Calculate the total wealth of billionaires younger than 50.
+• Calculate the total wealth of billionaires younger than 50.
 
-Identify billionaires whose net worth exceeds the overall average.
+• Identify billionaires whose net worth exceeds the overall average.
 
-Determine the industry with the highest average net worth.
+• Determine the industry with the highest average net worth.
 
 
 
 ## 3. Tools and Technologies
 
-MySQL: Database management and SQL analysis.
+• MySQL: Database management and SQL analysis.
 
-MySQL Workbench: Writing and executing SQL queries.
+• MySQL Workbench: Writing and executing SQL queries.
 
-CSV: Source dataset format.
+• CSV: Source dataset format.
 
 
 
@@ -55,25 +55,26 @@ The dataset contains information about 200 billionaires and includes seven colum
 
   Column                          Description
 
-serial_number                 Unique serial number
+• serial_number                 Unique serial number
 
-rank                          Billionaire ranking
+• rank                          Billionaire ranking
 
-name                          Name of billionaire
+• name                          Name of billionaire
 
-age                           Age in years
+• age                           Age in years
 
-country                       Country of origin or association
+• country                       Country of origin or association
 
-networth_billion_US_dollars    Net worth in billions of US dollars
+• networth_billion_US_dollars    Net worth in billions of US dollars
 
-industry                       Industry associated with the billionaire
+• industry                       Industry associated with the billionaire
 
-Dataset size: 200 rows and 7 columns.
 
-Database name: billionaire_analysis
+- Dataset size: 200 rows and 7 columns.
 
-Table name: billionaires
+- Database name: billionaire_analysis
+
+- Table name: billionaires
 
 
 
@@ -81,25 +82,25 @@ Table name: billionaires
 
 The following questions were answered using SQL:
 
-Who are the 20 richest billionaires?
+- Who are the 20 richest billionaires?
 
-Who are the five youngest billionaires?
+- Who are the five youngest billionaires?
 
-What are the average age and average net worth?
+- What are the average age and average net worth?
 
-Which five countries have the highest number of billionaires?
+- Which five countries have the highest number of billionaires?
 
-What is the combined net worth of billionaires from each country?
+- What is the combined net worth of billionaires from each country?
 
-Which five industries have the highest number of billionaires?
+- Which five industries have the highest number of billionaires?
 
-Which countries have at least five billionaires?
+- Which countries have at least five billionaires?
 
-What is the total net worth of billionaires younger than 50?
+- What is the total net worth of billionaires younger than 50?
 
-Which billionaires have a net worth above the overall average?
+- Which billionaires have a net worth above the overall average?
 
-Which industry has the highest average net worth?
+- Which industry has the highest average net worth?
 
 
 
@@ -107,29 +108,29 @@ Which industry has the highest average net worth?
 
 A. Age and Wealth
 
-Average age: 69.38 years
+• Average age: 69.38 years
 
-Average net worth: $31.84 billion
+• Average net worth: $31.84 billion
 
-Total net worth of billionaires younger than 50: $508.3 billion
+• Total net worth of billionaires younger than 50: $508.3 billion
 
 B. Country Analysis
 
-The United States leads in both billionaire population and combined net worth.
+• The United States leads in both billionaire population and combined net worth.
 
-The United States has a combined billionaire net worth of approximately $3,130.9 billion.
+• The United States has a combined billionaire net worth of approximately $3,130.9 billion.
 
 C. Industry Analysis
 
-The technology industry has the highest number of billionaires.
+• The technology industry has the highest number of billionaires.
 
 D. Additional Findings
 
-Eight countries have at least five billionaires.
+• Eight countries have at least five billionaires.
 
-53 billionaires have net worth above the dataset's overall average.
+• 53 billionaires have net worth above the dataset's overall average.
 
-Telecom has the highest average net worth at $102 billion, based on one billionaire in the dataset.
+• Telecom has the highest average net worth at $102 billion, based on one billionaire in the dataset.
 
 Note: The Telecom result represents only one observation. It should not be interpreted as evidence that the industry generally produces the wealthiest billionaires.
 
@@ -137,15 +138,15 @@ Note: The Telecom result represents only one observation. It should not be inter
 
 ## 7. Business Insights
 
-Geographical concentration: The United States accounts for 79 of the 200 billionaires, showing a strong concentration of billionaire representation in the dataset.
+• Geographical concentration: The United States accounts for 79 of the 200 billionaires, showing a strong concentration of billionaire representation in the dataset.
 
-Wealth concentration: The United States also records the highest combined net worth, indicating its significant contribution to the total wealth represented.
+• Wealth concentration: The United States also records the highest combined net worth, indicating its significant contribution to the total wealth represented.
 
-Technology representation: Technology leads the industry ranking with 40 billionaires, followed by Finance & Investments and Fashion & Retail.
+• Technology representation: Technology leads the industry ranking with 40 billionaires, followed by Finance & Investments and Fashion & Retail.
 
-Age distribution: The average age of 69.38 years suggests that the dataset contains a substantial number of older billionaires.
+• Age distribution: The average age of 69.38 years suggests that the dataset contains a substantial number of older billionaires.
 
-Younger wealth holders: Billionaires below 50 collectively hold $508.3 billion, demonstrating that substantial wealth is also represented among younger individuals.
+• Younger wealth holders: Billionaires below 50 collectively hold $508.3 billion, demonstrating that substantial wealth is also represented among younger individuals.
 
 
 
@@ -167,29 +168,29 @@ Include additional years of data to examine changes in billionaire wealth over t
 
 This project strengthened my practical understanding of:
 
-SELECT statements
+• SELECT statements
 
-WHERE clause
+• WHERE clause
 
-ORDER BY
+• ORDER BY
 
-LIMIT
+• LIMIT
 
-GROUP BY
+• GROUP BY
 
-HAVING
+• HAVING
 
-COUNT()
+• COUNT()
 
-SUM()
+• SUM()
 
-AVG()
+• AVG()
 
-ROUND()
+• ROUND()
 
-Subqueries
+• Subqueries
 
-Data aggregation and filtering
+• Data aggregation and filtering
 
 
 
